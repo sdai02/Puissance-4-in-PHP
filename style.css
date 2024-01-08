@@ -1,9 +1,17 @@
 table{
-    margin: 0 auto;
     margin-top: 120px;
+    margin: 0 auto;
     background: blue;
+
 }
-button{
+th{
     border: 0;
-    padding: 5px;
+    padding: 15px;
+}
+
+j1{
+    background: red;
+}
+j2{
+    background: yellow;
 }

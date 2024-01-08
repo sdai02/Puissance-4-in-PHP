@@ -17,8 +17,17 @@
         <?php for ( $j = 0; $j < 6; $j++){?>
                 <tbody>
                     <tr>
-                        <?php for ( $i = 0; $i < 7; $i++){?>
-                        <th> <button>teste</button> </th>
+                        <?php for ( $i = 0; $i < 7; $i++){
+                            if ($i %2 == 0){?>
+                                    <th style="background: red">
+
+                                    </th>
+                            <?} else{ ?>
+                                <th style="background: yellow"> </th>
+
+                            <?}?>
+
+
                         <?php };?>
                     </tr>
                 </tbody>
