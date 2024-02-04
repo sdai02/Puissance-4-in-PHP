@@ -2,16 +2,49 @@ table{
     margin-top: 120px;
     margin: 0 auto;
     background: blue;
+    border-radius: 12px;
+    transform: rotate(-90deg);
 
 }
-th{
-    border: 0;
-    padding: 15px;
+
+td{
+
+  padding: 30px;
+  background: #efefef;
+    border-radius: 30px;
+
+}
+img {
+    width: 35px;
 }
 
-j1{
+.block{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.joueur_1{
+    display: block;
+    color: red;
+}
+.joueur_1 form{
+    margin-left: 12px;
+}
+
+
+.joueur_2{
+    display: block;
+    color: yellow;
+}
+
+.joueur_2 form{
+    margin-left: 12px;
+}
+
+.j1{
     background: red;
 }
-j2{
+.j2{
     background: yellow;
 }
